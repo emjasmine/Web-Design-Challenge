@@ -1,0 +1,25 @@
+.navbar {background-color: #e3f2fd; padding: 10px;}
+.navbar a{ text-decoration: none; color: black;}
+
+.Page0 .Page0, 
+.Page1 .Page1,.Page2 .Page2,
+.Page3 .Page3,.Page4 .Page4,
+.Page5 .Page5,.Page6 .Page6 {color:red}
+
+ul.main-nav, ul.sub-nav {list-style:none; display:inline; margin:0; padding:0;}
+ul.main-nav li, ul.sub-nav li, .nav-link{display:inline; margin:0; padding:0;}
+ul.sub-nav {display:none}
+ul.main-nav a, ul.sub-nav a {padding:20px;}
+.main-nav-3 .main-nav-4 {display: inline;}
+
+
+h1{
+    color: mediumblue;
+    font-size:xx-large;
+    text-align: center;
+}
+
+h2{
+    font-size: xlarge;
+    text-align:left;
+}

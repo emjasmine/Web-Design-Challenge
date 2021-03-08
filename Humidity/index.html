@@ -9,15 +9,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
     <title>Web Visualizations</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
   </head>
-  <body class="Page0">
-    <h1>Weather Analysis Homepage</h1>
+  <body class="Page2">
+    <h1>Latitude vs. Humidity</h1>
     <div class="navbar">
       <ul class="main-nav">
-        <li class="main-nav-1"><a class="Page0 d-block p-2 bg-primary text-white" href="../index.html">Homepage</a></li>
-        <li class="main-nav-2">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Plots</a>
+        <li class="main-nav-1"><a class="Page0" href="../index.html">Homepage</a></li>
+        <li class="main-nav-2"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Plots</a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li class="sub-nav-1"><a  class="dropdown-item" href="../MaxTemp/index.html">Max Temperature</a></li> 
             <li class="sub-nav-2"><a  class="dropdown-item" href="../Humidity/index.html">Humidity</a></li> 
@@ -28,36 +27,14 @@
           <li class="main-nav-4"><a  class="Page6" href="../DataTable/index.html">Data Table</a></li>
     </ul> 
     </div>
-    <h2>Summary: Latitude vs. X</h2>
-    <hr>
     <div class="main">
-      <div class="row">
-        <div class="col-md-12">
-          <p >The purpose of this project was to analyze how weather changes as you get closer to the equator. 
-            To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-          </p>
-            
-          <p>After assembling the data set, we used Matplotlib to plot various aspects of the weather vs. latitude.
-            Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations
-            created as part of the analysis.
-          </p>
-        </div>
-          <div class="row">
-            <div class="col-md-12">
-              <h2>Visualizations</h2>
-              <hr>
-              <a href="MaxTemp/index.html"><img border="0" alt="vs Max Temp" src="Resources/assets/images/Fig1.png"" width="200" height="200"></a>
-              <a href="Humidity/index.html"><img border="0" alt="vs Humidity" src="Resources/assets/images/Fig2.png"" width="200" height="200"></a>
-              <a href="Cloudiness/index.html"><img border="0" alt="vs Humidity" src="Resources/assets/images/Fig3.png"" width="200" height="200"></a>
-              <a href="WindSpeed/index.html"><img border="0" alt="vs Humidity" src="Resources/assets/images/Fig4.png"" width="200" height="200"></a>
-             </div>
-            </div> 
-          </div>
-              
-          </div>
-         
-      </div>
-      
+      div>
+      <img src="../Resources/assets/images/Fig2.png" alt="vs Humidity">
+      <p>
+        This plot looks at the humidity data for each city in the data setup pulled from the OpenWeatherMap API.
+        The analysis indicates that 
+      </p>
+    </div>
     </div>
 
 
